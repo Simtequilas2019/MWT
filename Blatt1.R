@@ -20,11 +20,12 @@ iii <- function(n) {
   else return(n)
 }
 
-i(3,4)
-ii(1000)
+#i(3,4)
+
+#ii(10)
 
 # Funktion nimmt nur ganze Zahl
-number = as.integer(4)
-iii(number)
+#number = as.integer(4)
+#iii(number)
 
 
