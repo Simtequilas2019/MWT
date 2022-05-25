@@ -47,6 +47,10 @@ v2 <- function(mat) {
   return(mat)
 }
 
+multiply <- function(mat) {
+  return(mat%*%mat)
+}
+
 vi2 <- function(mat) {
   if (det(mat) <= 10^(-15)) {
     return("Matrix is not invertible")

@@ -25,6 +25,7 @@ for (i in 1:length(x)){
 }
 plot(x,val_1)
 
+
 for (i in 1:length(x)){
   val_2[i] = cantor_function(x[i],2)
 }
