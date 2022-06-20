@@ -13,9 +13,11 @@ simulate <- function(n, iterations) {
   }
   h<-hist(sum_birthdays, breaks=365)
 
-  # getting relative frequencies
+  # get relative frequencies
   h$counts <- h$counts / sum(h$counts)
   title <- sprintf("Histogram of birthdays over %s samples, %s people",
                   iterations, n)
   plot(h, xlab="day of the year", ylab="Relative Frequency", main=title)
 }
+
+
